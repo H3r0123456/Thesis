@@ -1,0 +1,22 @@
+{
+  "total_alerts": 0,
+  "fire_alerts": 0,
+  "warning_alerts": 0,
+  "true_positives": 0,
+  "false_positives": 0,
+  "false_negatives": 4,
+  "true_negatives": 12,
+  "accuracy": 0.75,
+  "recall": 0.0,
+  "precision": 0,
+  "f1_score": 0,
+  "config": {
+    "temperature_fire_threshold": 65.0,
+    "gas_fire_threshold": 0.75,
+    "temperature_warning_threshold": 48.0,
+    "gas_warning_threshold": 0.35,
+    "verification_window": 5,
+    "persistence_samples": 3
+  },
+  "total_samples_processed": 16
+}

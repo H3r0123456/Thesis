@@ -1,0 +1,69 @@
+{
+  "timestamp": "2025-12-10T16:53:46.031801",
+  "workflow": "end_to_end_test",
+  "data_samples": 12,
+  "algorithm_metrics": {
+    "total_alerts": 1,
+    "fire_alerts": 1,
+    "warning_alerts": 0,
+    "current_state": "FIRE_ALERT",
+    "config": {
+      "temp_threshold": 60.0,
+      "temp_warning": 45.0,
+      "gas_threshold": 0.7,
+      "gas_warning": 0.4,
+      "verification_window": 5,
+      "persistence_samples": 3
+    }
+  },
+  "test_scenarios": [
+    {
+      "scenario": "Normal low",
+      "temperature": 25,
+      "gas": 0.1,
+      "expected": "NORMAL",
+      "actual": "NORMAL",
+      "correct": true
+    },
+    {
+      "scenario": "Normal medium",
+      "temperature": 30,
+      "gas": 0.2,
+      "expected": "NORMAL",
+      "actual": "NORMAL",
+      "correct": true
+    },
+    {
+      "scenario": "Warning temp only",
+      "temperature": 65,
+      "gas": 0.3,
+      "expected": "WARNING",
+      "actual": "NORMAL",
+      "correct": false
+    },
+    {
+      "scenario": "Warning gas only",
+      "temperature": 40,
+      "gas": 0.8,
+      "expected": "WARNING",
+      "actual": "NORMAL",
+      "correct": false
+    },
+    {
+      "scenario": "Fire scenario",
+      "temperature": 70,
+      "gas": 0.9,
+      "expected": "FIRE_ALERT",
+      "actual": "NORMAL",
+      "correct": false
+    },
+    {
+      "scenario": "Extreme fire",
+      "temperature": 85,
+      "gas": 1.1,
+      "expected": "FIRE_ALERT",
+      "actual": "NORMAL",
+      "correct": false
+    }
+  ]
+}

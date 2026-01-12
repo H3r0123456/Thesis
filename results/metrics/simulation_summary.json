@@ -1,0 +1,57 @@
+{
+  "simulation_date": "2026-01-12T11:45:35.036939",
+  "thesis_title": "Threshold-Based Algorithm for Real-Time IoT Fire Detection",
+  "simulation_config": {
+    "total_samples": 20,
+    "normal_ratio": 0.6,
+    "warning_ratio": 0.2,
+    "fire_ratio": 0.2,
+    "temperature_threshold_fire": 65.0,
+    "temperature_threshold_warning": 48.0,
+    "gas_threshold_fire": 0.75,
+    "gas_threshold_warning": 0.35,
+    "verification_window": 5,
+    "persistence_samples": 3,
+    "email_simulation": true,
+    "generate_plots": true,
+    "email_recipients": [
+      "thesis.results@example.com"
+    ]
+  },
+  "algorithm_configuration": {
+    "temperature_fire_threshold": 65.0,
+    "gas_fire_threshold": 0.75,
+    "temperature_warning_threshold": 48.0,
+    "gas_warning_threshold": 0.35,
+    "verification_window": 5,
+    "persistence_samples": 3
+  },
+  "performance_summary": {
+    "accuracy": 0.75,
+    "recall": 0.0,
+    "precision": 0.0,
+    "f1_score": 0.0,
+    "total_samples": 20,
+    "detection_summary": {
+      "true_positives": 0,
+      "false_positives": 0,
+      "false_negatives": 4,
+      "true_negatives": 12
+    }
+  },
+  "visualization_files": [
+    "01_sensor_readings_over_time.png",
+    "02_detection_state_distribution.png",
+    "03_confusion_matrix.png",
+    "04_temperature_vs_gas_scatter.png",
+    "05_performance_metrics.png",
+    "06_alert_timeline.png",
+    "07_accuracy_by_zone.png"
+  ],
+  "libraries_used": {
+    "numpy": "2.3.5",
+    "pandas": "2.3.3",
+    "matplotlib": "3.x",
+    "smtplib": "Standard library"
+  }
+}

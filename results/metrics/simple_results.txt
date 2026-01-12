@@ -1,0 +1,7 @@
+Fire Detection Algorithm Simulation Results
+==================================================
+Simulation date: 2025-12-10 15:18:20.739307
+Total samples processed: 10
+Algorithm thresholds: Temp=60.0°C, Gas=0.7
+
+This simulation is ready for thesis integration.

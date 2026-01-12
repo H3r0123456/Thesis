@@ -1,0 +1,11 @@
+[
+  {
+    "timestamp": "2025-12-10T15:53:37.305120",
+    "type": "FIRE_ALERT_EMAIL",
+    "subject": "\ud83d\udea8 FIRE ALERT: Fire detected at Sample Zone 47",
+    "temperature": 78.28751109659684,
+    "gas": 0.8391582908269835,
+    "location": "Sample Zone 47",
+    "body": "\n        FIRE DETECTION ALERT SYSTEM\n        ============================\n        \n        \ud83d\udea8 EMERGENCY: FIRE DETECTED \ud83d\udea8\n        \n        Time: 2025-12-10 15:53:37\n        Location: Sample Zone 47\n        \n        SENSOR READINGS:\n        - Temperature: 78.3\u00b0C\n        - Gas Concentration: 0.839\n        \n        THRESHOLD STATUS:\n        - Temperature threshold: 65.0\u00b0C\n        - Gas threshold: 0.75\n        \n        STATUS: Both temperature and gas levels exceed fire thresholds.\n        \n        RECOMMENDED ACTION:\n        1. Evacuate the area immediately\n        2. Contact emergency services\n        3. Activate fire suppression systems\n        \n        ---\n        This is an automated alert from the Fire Detection Thesis Simulation.\n        "
+  }
+]

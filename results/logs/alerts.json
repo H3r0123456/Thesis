@@ -1,0 +1,410 @@
+[
+  {
+    "timestamp": "2025-12-10T14:46:31.500569",
+    "type": "WARNING",
+    "temperature": 50.5,
+    "gas_level": 0.45,
+    "location": "Test Area",
+    "message": "\u26a0\ufe0f WARNING: Temperature: 50.5\u00b0C, Gas: 0.45"
+  },
+  {
+    "timestamp": "2025-12-10T14:46:31.502881",
+    "type": "FIRE_ALERT",
+    "temperature": 70.2,
+    "gas_level": 0.85,
+    "location": "Test Area",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 70.2\u00b0C, Gas: 0.85"
+  },
+  {
+    "timestamp": "2025-12-10T14:54:55.042597",
+    "type": "WARNING",
+    "temperature": 55.5,
+    "gas_level": 0.45,
+    "location": "Test Area",
+    "message": "\u26a0\ufe0f WARNING: Temperature: 55.5\u00b0C, Gas: 0.45"
+  },
+  {
+    "timestamp": "2025-12-10T14:54:55.047400",
+    "type": "FIRE_ALERT",
+    "temperature": 75.2,
+    "gas_level": 0.85,
+    "location": "Test Area",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 75.2\u00b0C, Gas: 0.85"
+  },
+  {
+    "timestamp": "2025-12-10T14:54:55.050812",
+    "type": "FIRE_ALERT",
+    "temperature": 82.1,
+    "gas_level": 0.92,
+    "location": "Test Area",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 82.1\u00b0C, Gas: 0.92"
+  },
+  {
+    "timestamp": "2025-12-10T15:07:14.628316",
+    "type": "WARNING",
+    "temperature": 55.5,
+    "gas_level": 0.45,
+    "location": "Test Area",
+    "message": "\u26a0\ufe0f WARNING: Temperature: 55.5\u00b0C, Gas: 0.45"
+  },
+  {
+    "timestamp": "2025-12-10T15:07:14.631211",
+    "type": "FIRE_ALERT",
+    "temperature": 75.2,
+    "gas_level": 0.85,
+    "location": "Test Area",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 75.2\u00b0C, Gas: 0.85"
+  },
+  {
+    "timestamp": "2025-12-10T15:07:14.633441",
+    "type": "FIRE_ALERT",
+    "temperature": 82.1,
+    "gas_level": 0.92,
+    "location": "Test Area",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 82.1\u00b0C, Gas: 0.92"
+  },
+  {
+    "timestamp": "2025-12-10T15:16:43.428653",
+    "type": "WARNING",
+    "temperature": 55.5,
+    "gas_level": 0.45,
+    "location": "Test Area",
+    "message": "\u26a0\ufe0f WARNING: Temperature: 55.5\u00b0C, Gas: 0.45"
+  },
+  {
+    "timestamp": "2025-12-10T15:16:43.434039",
+    "type": "FIRE_ALERT",
+    "temperature": 75.2,
+    "gas_level": 0.85,
+    "location": "Test Area",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 75.2\u00b0C, Gas: 0.85"
+  },
+  {
+    "timestamp": "2025-12-10T15:16:43.440897",
+    "type": "FIRE_ALERT",
+    "temperature": 82.1,
+    "gas_level": 0.92,
+    "location": "Test Area",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 82.1\u00b0C, Gas: 0.92"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.331490",
+    "type": "FIRE_ALERT",
+    "temperature": 82.47293605123262,
+    "gas_level": 0.9286489434803029,
+    "location": "Sample 152",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 82.5\u00b0C, Gas: 0.93"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.335365",
+    "type": "FIRE_ALERT",
+    "temperature": 81.10370265433465,
+    "gas_level": 0.7760092205054859,
+    "location": "Sample 153",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 81.1\u00b0C, Gas: 0.78"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.338420",
+    "type": "FIRE_ALERT",
+    "temperature": 74.79098406035853,
+    "gas_level": 0.7971475688145967,
+    "location": "Sample 154",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 74.8\u00b0C, Gas: 0.80"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.342600",
+    "type": "FIRE_ALERT",
+    "temperature": 80.47097381170038,
+    "gas_level": 0.8484077840507135,
+    "location": "Sample 158",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 80.5\u00b0C, Gas: 0.85"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.349632",
+    "type": "FIRE_ALERT",
+    "temperature": 83.2541634898803,
+    "gas_level": 0.7836859777314714,
+    "location": "Sample 162",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 83.3\u00b0C, Gas: 0.78"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.355474",
+    "type": "FIRE_ALERT",
+    "temperature": 83.13509636000639,
+    "gas_level": 0.8602567583148413,
+    "location": "Sample 163",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 83.1\u00b0C, Gas: 0.86"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.360344",
+    "type": "FIRE_ALERT",
+    "temperature": 88.05478807154329,
+    "gas_level": 0.9035215987566669,
+    "location": "Sample 164",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 88.1\u00b0C, Gas: 0.90"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.366560",
+    "type": "FIRE_ALERT",
+    "temperature": 78.24166352488442,
+    "gas_level": 0.8146514147823248,
+    "location": "Sample 168",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 78.2\u00b0C, Gas: 0.81"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.376601",
+    "type": "FIRE_ALERT",
+    "temperature": 66.81779316766527,
+    "gas_level": 1.0176715411692563,
+    "location": "Sample 172",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 66.8\u00b0C, Gas: 1.02"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.379774",
+    "type": "FIRE_ALERT",
+    "temperature": 95.9238727568546,
+    "gas_level": 0.9438906239127811,
+    "location": "Sample 173",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 95.9\u00b0C, Gas: 0.94"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.385777",
+    "type": "FIRE_ALERT",
+    "temperature": 81.24119817052156,
+    "gas_level": 1.1284704399826508,
+    "location": "Sample 178",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 81.2\u00b0C, Gas: 1.13"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.396278",
+    "type": "WARNING",
+    "temperature": 66.02745628514168,
+    "gas_level": 0.7100911031833967,
+    "location": "Sample 181",
+    "message": "\u26a0\ufe0f WARNING: Temperature: 66.0\u00b0C, Gas: 0.71"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.399866",
+    "type": "WARNING",
+    "temperature": 75.75804558193727,
+    "gas_level": 0.48141564135352904,
+    "location": "Sample 182",
+    "message": "\u26a0\ufe0f WARNING: Temperature: 75.8\u00b0C, Gas: 0.48"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.405276",
+    "type": "WARNING",
+    "temperature": 68.22838288487888,
+    "gas_level": 0.7211367467478859,
+    "location": "Sample 183",
+    "message": "\u26a0\ufe0f WARNING: Temperature: 68.2\u00b0C, Gas: 0.72"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.409891",
+    "type": "WARNING",
+    "temperature": 84.7511973341775,
+    "gas_level": 0.6861301007669454,
+    "location": "Sample 184",
+    "message": "\u26a0\ufe0f WARNING: Temperature: 84.8\u00b0C, Gas: 0.69"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.412632",
+    "type": "FIRE_ALERT",
+    "temperature": 71.78614158347007,
+    "gas_level": 1.081425625882383,
+    "location": "Sample 187",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 71.8\u00b0C, Gas: 1.08"
+  },
+  {
+    "timestamp": "2025-12-10T15:21:13.415976",
+    "type": "FIRE_ALERT",
+    "temperature": 79.12931454275625,
+    "gas_level": 0.9425635757279076,
+    "location": "Sample 188",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 79.1\u00b0C, Gas: 0.94"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.788078",
+    "type": "FIRE_ALERT",
+    "temperature": 82.47293605123262,
+    "gas_level": 0.9286489434803029,
+    "location": "Sample 152",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 82.5\u00b0C, Gas: 0.93"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.795301",
+    "type": "FIRE_ALERT",
+    "temperature": 81.10370265433465,
+    "gas_level": 0.7760092205054859,
+    "location": "Sample 153",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 81.1\u00b0C, Gas: 0.78"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.802224",
+    "type": "FIRE_ALERT",
+    "temperature": 74.79098406035853,
+    "gas_level": 0.7971475688145967,
+    "location": "Sample 154",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 74.8\u00b0C, Gas: 0.80"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.815095",
+    "type": "FIRE_ALERT",
+    "temperature": 80.47097381170038,
+    "gas_level": 0.8484077840507135,
+    "location": "Sample 158",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 80.5\u00b0C, Gas: 0.85"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.821859",
+    "type": "FIRE_ALERT",
+    "temperature": 83.2541634898803,
+    "gas_level": 0.7836859777314714,
+    "location": "Sample 162",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 83.3\u00b0C, Gas: 0.78"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.825868",
+    "type": "FIRE_ALERT",
+    "temperature": 83.13509636000639,
+    "gas_level": 0.8602567583148413,
+    "location": "Sample 163",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 83.1\u00b0C, Gas: 0.86"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.832740",
+    "type": "FIRE_ALERT",
+    "temperature": 88.05478807154329,
+    "gas_level": 0.9035215987566669,
+    "location": "Sample 164",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 88.1\u00b0C, Gas: 0.90"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.847569",
+    "type": "FIRE_ALERT",
+    "temperature": 78.24166352488442,
+    "gas_level": 0.8146514147823248,
+    "location": "Sample 168",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 78.2\u00b0C, Gas: 0.81"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.860006",
+    "type": "FIRE_ALERT",
+    "temperature": 66.81779316766527,
+    "gas_level": 1.0176715411692563,
+    "location": "Sample 172",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 66.8\u00b0C, Gas: 1.02"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.872847",
+    "type": "FIRE_ALERT",
+    "temperature": 95.9238727568546,
+    "gas_level": 0.9438906239127811,
+    "location": "Sample 173",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 95.9\u00b0C, Gas: 0.94"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.877388",
+    "type": "FIRE_ALERT",
+    "temperature": 81.24119817052156,
+    "gas_level": 1.1284704399826508,
+    "location": "Sample 178",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 81.2\u00b0C, Gas: 1.13"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.882485",
+    "type": "WARNING",
+    "temperature": 66.02745628514168,
+    "gas_level": 0.7100911031833967,
+    "location": "Sample 181",
+    "message": "\u26a0\ufe0f WARNING: Temperature: 66.0\u00b0C, Gas: 0.71"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.886946",
+    "type": "WARNING",
+    "temperature": 75.75804558193727,
+    "gas_level": 0.48141564135352904,
+    "location": "Sample 182",
+    "message": "\u26a0\ufe0f WARNING: Temperature: 75.8\u00b0C, Gas: 0.48"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.890958",
+    "type": "WARNING",
+    "temperature": 68.22838288487888,
+    "gas_level": 0.7211367467478859,
+    "location": "Sample 183",
+    "message": "\u26a0\ufe0f WARNING: Temperature: 68.2\u00b0C, Gas: 0.72"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.895847",
+    "type": "WARNING",
+    "temperature": 84.7511973341775,
+    "gas_level": 0.6861301007669454,
+    "location": "Sample 184",
+    "message": "\u26a0\ufe0f WARNING: Temperature: 84.8\u00b0C, Gas: 0.69"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.901148",
+    "type": "FIRE_ALERT",
+    "temperature": 71.78614158347007,
+    "gas_level": 1.081425625882383,
+    "location": "Sample 187",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 71.8\u00b0C, Gas: 1.08"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:20.907782",
+    "type": "FIRE_ALERT",
+    "temperature": 79.12931454275625,
+    "gas_level": 0.9425635757279076,
+    "location": "Sample 188",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 79.1\u00b0C, Gas: 0.94"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:48.034548",
+    "type": "WARNING",
+    "temperature": 55.5,
+    "gas_level": 0.45,
+    "location": "Test Area",
+    "message": "\u26a0\ufe0f WARNING: Temperature: 55.5\u00b0C, Gas: 0.45"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:48.038673",
+    "type": "FIRE_ALERT",
+    "temperature": 75.2,
+    "gas_level": 0.85,
+    "location": "Test Area",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 75.2\u00b0C, Gas: 0.85"
+  },
+  {
+    "timestamp": "2025-12-10T15:27:48.045925",
+    "type": "FIRE_ALERT",
+    "temperature": 82.1,
+    "gas_level": 0.92,
+    "location": "Test Area",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 82.1\u00b0C, Gas: 0.92"
+  },
+  {
+    "timestamp": "2025-12-10T16:53:46.012756",
+    "type": "WARNING",
+    "temperature": 55.5,
+    "gas_level": 0.45,
+    "location": "Test Area",
+    "message": "\u26a0\ufe0f WARNING: Temperature: 55.5\u00b0C, Gas: 0.45"
+  },
+  {
+    "timestamp": "2025-12-10T16:53:46.018590",
+    "type": "FIRE_ALERT",
+    "temperature": 75.2,
+    "gas_level": 0.85,
+    "location": "Test Area",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 75.2\u00b0C, Gas: 0.85"
+  },
+  {
+    "timestamp": "2025-12-10T16:53:46.022227",
+    "type": "FIRE_ALERT",
+    "temperature": 82.1,
+    "gas_level": 0.92,
+    "location": "Test Area",
+    "message": "\ud83d\udea8 FIRE DETECTED! Temperature: 82.1\u00b0C, Gas: 0.92"
+  }
+]
